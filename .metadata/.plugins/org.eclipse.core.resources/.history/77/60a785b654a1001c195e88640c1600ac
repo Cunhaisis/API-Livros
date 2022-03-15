@@ -1,0 +1,5 @@
+package br.com.api.books.bookstan.repository;
+
+public interface LivroRepository {
+
+}

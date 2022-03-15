@@ -1,0 +1,5 @@
+package br.com.api.books.bookstan.model;
+
+public class Livro {
+
+}
