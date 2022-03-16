@@ -1,7 +1,6 @@
 package br.com.api.books.bookstan.model;
 
 import java.io.Serializable;
-import java.sql.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -32,7 +31,7 @@ public class Livro implements Serializable{
 	
 	private int paginas;
 	
-	private Date dataCompra;
+	private int dataCompra;
 	
 	private boolean foiLido;
 	
@@ -40,7 +39,7 @@ public class Livro implements Serializable{
 	
 	private int anoEdicao;
 	
-	private float preco;
+	private int preco;
 
 	public Long getBookId() {
 		return bookId;
@@ -90,11 +89,11 @@ public class Livro implements Serializable{
 		this.paginas = paginas;
 	}
 
-	public Date getDataCompra() {
+	public int getDataCompra() {
 		return dataCompra;
 	}
 
-	public void setDataCompra(Date dataCompra) {
+	public void setDataCompra(int dataCompra) {
 		this.dataCompra = dataCompra;
 	}
 
@@ -122,7 +121,7 @@ public class Livro implements Serializable{
 		this.anoEdicao = anoEdcao;
 	}
 
-	public float getPreco() {
+	public int getPreco() {
 		return preco;
 	}
 

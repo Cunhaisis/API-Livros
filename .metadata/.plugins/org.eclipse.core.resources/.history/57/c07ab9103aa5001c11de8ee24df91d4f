@@ -90,11 +90,11 @@ public class Livro implements Serializable{
 		this.paginas = paginas;
 	}
 
-	public Date getDataCompra() {
+	public int getDataCompra() {
 		return dataCompra;
 	}
 
-	public void setDataCompra(Date dataCompra) {
+	public void setDataCompra(int dataCompra) {
 		this.dataCompra = dataCompra;
 	}
 

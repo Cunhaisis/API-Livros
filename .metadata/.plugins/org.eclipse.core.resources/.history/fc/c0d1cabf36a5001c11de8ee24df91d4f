@@ -9,7 +9,7 @@ spring.h2.console.path=/h2-console
 
 
 # database configs
-spring.datasource.url=jdbc:mysql://localhost:3306/books?useTimezone=true&serverTimezone=America/Sao_Paulo
+spring.datasource.url=jdbc:mysql://localhost:3306/my_books?useTimezone=true&serverTimezone=America/Sao_Paulo
 spring.datasource.username=root
 spring.datasource.password=&O^kD6HNMcff
 spring.datasource.driverClassName=com.mysql.jdbc.Driver

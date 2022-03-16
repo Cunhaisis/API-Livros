@@ -96,5 +96,15 @@ public class GreetingsController {
 		return new ResponseEntity<Livro>(book, HttpStatus.OK);
 
 	}
-		    
+	
+	@GetMapping(value = "buscarPorNome")
+	@ResponseBody
+	public ResponseEntity<List<Livro>> buscarPorNome(@RequestParam(name = "name") String name) {
+
+		List<Livro> livro = livroRepository.buscarPorNome(name);
+
+		return new ResponseEntity<List<Livro>>(livro, HttpStatus.OK);
+
+	}
+	    
 }
